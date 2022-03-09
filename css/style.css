@@ -23,6 +23,8 @@ html {
 }
 .col {
     float: left;
+    height: 70px;
+    background-color: beige;
 }
 img {
     width: 100%;
@@ -32,4 +34,14 @@ img {
 header {
     height: 70px;
     background-color: #4681EF;
+}
+
+.nav-center {
+    width: 70%;
+}
+.nav-logo {
+    width: 15%;
+}
+.nav-btn {
+    width: 15%;
 }
