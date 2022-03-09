@@ -9,6 +9,7 @@
 
 html {
     font-family: "Whitney", sans-serif;
+    font-size: 62.5%;
 }
 .container {
     width: 80%;
@@ -81,4 +82,10 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.jumbotron-content{
+    background-color: bisque;
+    width: 50%;
+    margin: auto;
+}
 }
