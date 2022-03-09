@@ -29,7 +29,9 @@ html {
 img {
     width: 100%;
 }
-
+ul {
+    list-style: none;
+}
 /* HEADER */
 header {
     height: 70px;
@@ -44,4 +46,10 @@ header {
 }
 .nav-btn {
     width: 15%;
+}
+.nav-center .header-menu li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
 }
