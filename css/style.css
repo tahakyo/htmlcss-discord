@@ -4,3 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+
+html {
+    font-family: "Whitney", sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col {
+    float: left;
+}
+
+/* HEADER */
