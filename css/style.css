@@ -73,3 +73,12 @@ header {
 .nav-center .header-menu li {
     display: inline-block;
 }
+/* MAIN */
+/* Jumbotron */
+.jumbotron {
+    height: 400px;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
