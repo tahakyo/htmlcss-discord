@@ -77,15 +77,25 @@ header {
 /* MAIN */
 /* Jumbotron */
 .jumbotron {
-    height: 400px;
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 15em;
 }
 .jumbotron-content{
-    background-color: bisque;
-    width: 50%;
+    width: 70%;
     margin: auto;
+    color: white;
+    text-align: center;
 }
+.jumbotron-title{
+    font-weight: 800;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.text {
+    line-height: 1.6em ;
+    font-size: 1.3em;
+    font-weight: 550;
 }
