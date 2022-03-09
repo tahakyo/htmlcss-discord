@@ -13,8 +13,6 @@ html {
 .container {
     width: 80%;
     margin: 0 auto;
-    /* test */
-    border: 1px solid black;
 }
 .clearfix::after {
     content: "";
@@ -24,7 +22,6 @@ html {
 .col {
     float: left;
     height: 70px;
-    background-color: beige;
 }
 img {
     width: 100%;
@@ -32,24 +29,34 @@ img {
 ul {
     list-style: none;
 }
+a {
+    text-decoration: none;
+    padding: 4px;
+    color: inherit;
+}
 /* HEADER */
 header {
     height: 70px;
     background-color: #4681EF;
 }
-
+.header-nav{
+    line-height: 70px;
+    color: white;
+}
 .nav-center {
     width: 70%;
+    text-align: center;
 }
 .nav-logo {
     width: 15%;
 }
+.nav-logo img {
+    vertical-align: middle;
+}
 .nav-btn {
     width: 15%;
+    text-align: right;
 }
 .nav-center .header-menu li {
     display: inline-block;
-}
-a {
-    text-decoration: none;
 }
