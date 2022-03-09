@@ -34,13 +34,25 @@ a {
     padding: 4px;
     color: inherit;
 }
+    /* Buttons */
+.btn-white {
+    background-color: white;
+    color: black;
+
+}
+.btn-small {
+    padding: 0.6em 1em;
+    border-radius: 50px;
+    font-size: 0.85em;
+
+}
 /* HEADER */
 header {
-    height: 70px;
+    height: 50px;
     background-color: #4681EF;
 }
 .header-nav{
-    line-height: 70px;
+    line-height: 50px;
     color: white;
 }
 .nav-center {
@@ -52,6 +64,7 @@ header {
 }
 .nav-logo img {
     vertical-align: middle;
+    width: 80%;
 }
 .nav-btn {
     width: 15%;
@@ -59,16 +72,4 @@ header {
 }
 .nav-center .header-menu li {
     display: inline-block;
-}
-
-.btn-white {
-    background-color: white;
-    color: black;
-
-}
-.btn-small {
-    padding: 0.6em 1em;
-    border-radius: 50px;
-    font-size: 0.85em;
-
 }
